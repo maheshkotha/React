@@ -1,0 +1,23 @@
+
+
+.clock-container {
+    height: 100vh;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./../../assets/digitla-clock.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.clock {
+    font-size: 6rem;
+    font-family: monospace;
+    color: #fff;
+    width: 100%;
+    padding: 10px 0;
+    backdrop-filter: blur(15px);
+}
